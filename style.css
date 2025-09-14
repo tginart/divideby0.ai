@@ -27,7 +27,7 @@ header h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1.5rem;
   max-width: 900px;
   margin: 0 auto;
@@ -57,7 +57,7 @@ header h1 {
 
 /* Uniform logo area so names align */
 .logo-box {
-  width: 144px;
+  width: 64px;
   height: 64px;
   display: flex;
   align-items: center;
@@ -89,5 +89,6 @@ footer {
 /* Ensure label spacing is consistent */
 .card span {
   display: block;
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
+  font-weight: 600;
 }
