@@ -56,6 +56,13 @@ header h1 {
   margin-bottom: 0.5rem;
 }
 
+/* For logos that need a solid background to be visible */
+.logo-bg {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 8px;
+}
+
 footer {
   margin-top: 3rem;
   padding: 1rem;
