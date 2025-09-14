@@ -57,13 +57,14 @@ header h1 {
 
 /* Uniform logo area so names align */
 .logo-box {
-  width: 128px;
-  height: 56px;
+  width: 144px;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: transparent;
   border-radius: 12px;
+  padding: 8px;
   margin-bottom: 0.5rem;
 }
 
@@ -72,7 +73,7 @@ header h1 {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 48px;
   max-width: 100%;
   width: auto;
   height: auto;
@@ -84,4 +85,9 @@ footer {
   padding: 1rem;
   font-size: 0.875rem;
   color: #666;
+}
+/* Ensure label spacing is consistent */
+.card span {
+  display: block;
+  margin-top: 0.25rem;
 }
