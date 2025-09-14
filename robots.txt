@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Update this once you add a sitemap
+# Sitemap: https://divideby0.ai/sitemap.xml
+
