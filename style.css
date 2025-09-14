@@ -52,15 +52,31 @@ header h1 {
 }
 
 .card img {
-  max-width: 80px;
   margin-bottom: 0.5rem;
 }
 
-/* For logos that need a solid background to be visible */
-.logo-bg {
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 8px;
+/* Uniform logo area so names align */
+.logo-box {
+  width: 128px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.logo-box--dark {
+  background: #0f172a; /* dark background for light logos */
+}
+
+.logo {
+  max-height: 40px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
 }
 
 footer {
